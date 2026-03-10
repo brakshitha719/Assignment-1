@@ -1,4 +1,4 @@
-package Assignment.Ass1.Module3;
+package Assignment.Ass1and2.Module3;
 
 public class BankAccount {
 

@@ -1,12 +1,12 @@
-package Assignment.Ass2.Module4;
+package Assignment.Ass1and2.Module4;
 
     // Interface
-    interface Payment {
+    interface Payment1 {
         void pay(double amount);
     }
 
     // Credit card payment implementation
-    class CreditCardPayment implements Payment {
+    class CreditCardPayment1 implements Payment1{
 
         @Override
         public void pay(double amount) {
@@ -15,7 +15,7 @@ package Assignment.Ass2.Module4;
     }
 
     // UPI payment implementation
-    class UPIPayment implements Payment {
+    class UPIPayment1 implements Payment1 {
 
         @Override
         public void pay(double amount) {
@@ -24,11 +24,11 @@ package Assignment.Ass2.Module4;
     }
 
     // Main class
-    public class PayFunction {
+    public class PayFunction1 {
         public static void main(String[] args) {
 
-            Payment credit = new CreditCardPayment();
-            Payment upi = new UPIPayment();
+            Payment1 credit = new CreditCardPayment1();
+            Payment1 upi = new UPIPayment1();
 
             credit.pay(1500.00);
             upi.pay(750.50);

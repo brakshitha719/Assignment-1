@@ -1,4 +1,4 @@
-package Assignment.Ass1.Module1;
+package Assignment.Ass1and2.Module1;
 
 public class Whileloop {
     public static void main(String[] args) {

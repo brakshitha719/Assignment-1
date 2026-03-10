@@ -1,4 +1,4 @@
-package Assignment.Ass1.Module3;
+package Assignment.Ass1and2.Module3;
 // Demonstrates both Method Overloading and Method Overriding
 // ---------- Method Overriding example ----------
 class Parent {

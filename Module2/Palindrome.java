@@ -1,4 +1,4 @@
-package Assignment.Ass1.Module2;
+package Assignment.Ass1and2.Module2;
 import java.util.Scanner;
 public class Palindrome {
 
